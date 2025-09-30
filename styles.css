@@ -1,2 +1,38 @@
 
 /* Your CSS Code here. */
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+nav{
+	width:100vw;
+}
+nav>ul{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background-color:#f04987;
+	padding:10px 5px;
+}
+
+nav>ul>li{
+	list-style-type:none;
+}
+nav>ul>li>a{
+	text-decoration:none;
+	padding-inline:60px;
+	font-size:20px;
+	font-weight:bold;
+	color:black;
+}
+video{
+	width:90%;
+	margin:30px 10%;
+	margin-left:50px;
+}
+h1{
+	font-size:40px;
+	text-align:center;
+	text-decoration:underline:
+}
